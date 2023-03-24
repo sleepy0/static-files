@@ -1,0 +1,44 @@
+html {
+  font-family: 'arial', sans-serif;
+}
+
+body {
+	margin: 2vh 2vw;
+}
+
+div.main {
+	display:  block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.temperature {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+/*#history_chart {
+	width: 100% !important;
+}*/
+
+/*div.temperature::after {
+	content: '°';
+}*/
+
+div.pressure {
+	font-size: 18px;
+}
+
+div.pressure::after {
+	font-size: 16px;
+	content:  ' мм рт. ст.';
+}
+
+div.chart-container {
+	position: relative;
+	height:48vh;
+	width:96vw;
+	margin-left: auto;
+	margin-right: auto;
+}
