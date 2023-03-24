@@ -1,5 +1,3 @@
-// обработка -10000
-
 const historyLimit = tempHistory.length;
 // const historyLimit = 145;
 
